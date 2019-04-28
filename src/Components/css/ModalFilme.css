@@ -12,3 +12,14 @@
   .detalhesFilme{
       flex:1;
   }
+  h4{
+    font-weight: 700;
+    text-align: center;
+  }
+  h5{
+    margin:0;
+    font-weight:400;
+  }
+  .dadosFilme span{
+    font-weight: 500;
+  }

@@ -15,14 +15,15 @@ class ModalFilme extends Component{
             <div className="div-flex">
                 <div className="imgPoster" style = {Object.assign(style.estilo_poster)}></div>
                 <div className="detalhesFilme">
+                    <h5>Sinopse</h5>
                     <p>{this.props.sinopse_modal}</p>
                     <div className="dadosFilme">
-                        <ul className="collection">
-                            <li className="collection-item">Alvin</li>
-                            <li className="collection-item">Alvin</li>
-                            <li className="collection-item">Alvin</li>
-                            <li className="collection-item">Alvin</li>
-                        </ul>
+                        <div className="duracao">
+                            <span>Duração: </span> {this.props.duracao} minutos
+                        </div>
+                        <div className="genero">
+                            <span>Gênero: </span> {this.props.genero}
+                        </div>
                     </div>
                 </div>
             </div>

@@ -17,9 +17,13 @@ class Filme extends Component{
         <div className="row">
           <div className="card">
             <div className="card-image">
-              <div className="imgteste" style = {Object.assign(style.estilo_filme)}></div>
+              <div className="imgFilme" style = {Object.assign(style.estilo_filme)}></div>
               <Modal header={this.props.titulo} trigger={trigger}>
-                <ModalFilme url_poster={this.props.url_poster} sinopse_modal={this.props.sinopse} />
+                <ModalFilme 
+                  url_poster={this.props.url_poster} 
+                  sinopse_modal={this.props.sinopse}
+                  duracao={this.props.duracao} 
+                  genero={this.props.genero}/>
               </Modal>
             </div>
             <div className="card-content">

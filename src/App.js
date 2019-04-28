@@ -16,8 +16,10 @@ class App extends Component {
         <Filme 
           titulo={filme.titulo} 
           url={filme.url} 
-          url_poster={filme.url_poster}
-          sinopse={filme.sinopse}>
+          url_poster={filme.modal.url_poster}
+          sinopse={filme.sinopse}
+          duracao={filme.modal.duracao}
+          genero={filme.modal.genero}>
           {APIFilmes.reduzSinopse(filme.id)}
         </Filme>
       </div>  
