@@ -1,0 +1,11 @@
+.container{
+  width: 850px;
+  margin: 0 auto;
+}
+.div-flex{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+
+

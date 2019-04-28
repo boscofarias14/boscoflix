@@ -1,0 +1,14 @@
+ .imgPoster{
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+  }
+
+  .div-flex{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  .detalhesFilme{
+      flex:1;
+  }
